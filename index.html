@@ -1,23 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html>
 <head>
-	<meta charset="UTF-8">
-	<title>"Hellow World" </title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
-<body>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width-device-width, initial-scale=1"/>
+	<meta name="description" content="A basic Hello Rsky example for bootsrap"/>
+	<meta name="author" content="Alan Grid"/>
+	<title>Bootstrap test saite</title>
 
-<h1>Test Site to GitHub</h1>
-	
-</body>
-</html>
+	<!--Bootstrap CSS-->
+	<link href="Content/bootstrap.min.css" rel="stylesheet"/>
+	<!--HTML shim and Respond.js IE8 support of HTML elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+    	<div class="container">
+    		<ul class="nav nav-pills navbar">
+    			<li class="active"><a href="#">Home</a></li>
+    			<li><a href="#">About Us</a></li>
+    			<li><a href="#">Contact</a></li>
 
+    		</ul><!--end of nav-->
+    		<div class="jumbotron">
+    			<h1>Hello RSky!</h1>
+    			<p>This text is some text that would appear below the title in a jumbotron.</p>
+    		</div><!--end of jumbotron-->
 
+    		<div class="row">
+    			<div class="col-md-4">
+    				<div class="jumbotron">
+    					<p>This is jumbotron class. It should span the width of a single column.</p>
+    					<button class="btn btn-info">Read More</button>
+    				</div><!--end of jumbotron-->
 
+    			</div><!--end of col-1-->
 
+    			<div class="col-md-4">
+    				<div class="alert alert-success" role="alert">You successfully saved a record</div>
+    				<div class="alert alert-info" role="alert">This is an information message</div>
+    				<div class="alert alert-danger" role="alert">An error has occurred</div>
+    				<div class="alert alert-warning" role="alert">This is a warning</div>
 
+    			</div><!--end of col-2-->
 
+    			<div class="col-md-4">
+    				<div class="btn-group">
+    					<button type="button" class="btn btn-default btn-lg">
+    						<span class="glyphicon glyphicon-euro"></span> Euro
+    					</button>	
+    					<button type="button" class="btn btn-default btn-lg">
+    						<span class="glyphicon glyphicon-usd"></span> Dollar
+    					</button>
+    					<button type="button" class="btn btn-default btn-lg">
+    						<span class="glyphicon glyphicon-gbp"></span> Pound
+    					</button>
+    				</div><!--end of btn-group-->	
+    				
+    			</div><!--end of col-3-->
 
+    		</div><!--end of row-->
 
+    	</div><!--end of container-->
 
-
+    	<!--Bootstrap javascript and jQuery should be loaded 
+    	Place at the end of the document for faster load times-->
+    	<script src="Scripts/bootstrap.min.js"></script>
+    	<script src="Scripts/jquery-1.9.1.min.js"></script>
+    </body>
+    </html>
