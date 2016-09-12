@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width-device-width, initial-scale=1"/>
+	<meta name="description" content="A basic Hello Rsky example for bootsrap"/>
+	<meta name="author" content="Alan Grid"/>
+	<title>Rsky Bootstrap Site</title>
+
+	<!--Bootstrap CSS-->
+	<link href="Content/bootstrap.min.css" rel="stylesheet"/>
+	<!--HTML shim and Respond.js IE8 support of HTML elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+    	<div class="container">
+    		<ul class="nav nav-pills navbar">
+    			<li class="active"><a href="#">Home</a></li>
+    			<li><a href="#">About Us</a></li>
+    			<li><a href="#">Contact</a></li>
+
+    		</ul><!--end of nav-->
+    		<div class="jumbotron">
+    			<h1>Rsky Responsive Site</h1>
+    			<p><button type="button" class="btn btn-info">Read More</button></p>
+    		</div><!--end of jumbotron-->
+
+    		<div class="row">
+    			<div class="col-md-6">
+                    <div class="jumbotron">
+                        Please select currency: 
+                        <div class="btn-group btn-group-vertical btn-block">
+                            <button type="button" class="btn btn-default btn-block>
+                                <span class="glyphicon glyphicon-usd"></span> Dollar
+                            </button>
+                            <button type="button" class="btn btn-default btn-block>
+                                <span class="glyphicon glyphicon-gbp"></span> Pound
+                            </button>
+                            <button type="button" class="btn btn-default btn-block>
+                                <span class="glyphicon glyphicon-euro"></span> Euro
+                            </button>
+                        </div><!--end of btn-group-->
+                    </div><!--end of jumbotron-->
+                </div><!--end of col-1-->
+
+                <div class="col-md-6 ">
+                    <p>What kind of investments do you like?</p>
+                    <div class="alert alert-danger" role="alert">Highly Risky Ivestments! </div><!--end of alert-->
+                    <div class="alert alert-warning" role="alert">Highly Risky Ivestments! </div><!--end of alert-->
+                    <div class="alert alert-info" role="alert">Stable Ivestments! </div><!--end of alert-->
+                    <div class="alert alert-success" role="alert">Safe Ivestments! </div><!--end of alert-->
+                </div><!--end of col-2-->
+            </div><!--end of container-->
+
+    	<!--Bootstrap javascript and jQuery should be loaded 
+    	Place at the end of the document for faster load times-->
+    	<script src="Scripts/bootstrap.min.js"></script>
+    	<script src="Scripts/jquery-1.9.1.min.js"></script>
+    </div>
+</body>
+</html>
